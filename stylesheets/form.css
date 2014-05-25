@@ -3,3 +3,8 @@
 body {
  background:#ece4d8;
  }
+
+legend {
+ font-size: 1.3em;
+ line-height: 1.4em;
+}
