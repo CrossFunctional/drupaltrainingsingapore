@@ -781,13 +781,16 @@ a {
   vertical-align:top;
   position: relative;
   top: 0;
-  width: 24%;
+  width: 48%;
   min-width:313px;
   display: inline-block;
   text-align: center;
 /*  margin: 40px 10px 0;*/
   margin-bottom:1rem;
 }
+@media screen and (min-width: 1356px) {
+  .section-events-list li {
+    width: 24%; } }
 
 .section-events-list li p {
 /*  text-align:justify;*/
